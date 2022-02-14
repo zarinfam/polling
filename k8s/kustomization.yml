@@ -16,8 +16,5 @@ resources:
 - frontend.yml
 - ingressv1.yml
 - mysql.yml
-images:
-- name: api
-- name: frontend
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization

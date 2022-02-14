@@ -6,6 +6,7 @@ metadata:
     dev.okteto.com/generate-host: "true"
 spec:
   rules:
+    - host: localhost
     - http:
         paths:
           - path: /
